@@ -26,7 +26,7 @@ oneMinLogSig = log(1 - sigResult);
 
 J = (1/m)*sum(-y.*logSig - (1-y).*oneMinLogSig);
 
-grad = (1/m)*(X' * (sigResult-y))
+grad = (1/m)*(X' * (sigResult-y));
 
 % =============================================================
 
